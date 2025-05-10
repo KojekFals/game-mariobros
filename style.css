@@ -1,0 +1,23 @@
+#restartBtn {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 12px 24px;
+  font-size: 20px;
+  background-color: #ff5050;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: none;
+  z-index: 10;
+  canvas {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    background: lightblue;
+  } 
+
+}
